@@ -6,6 +6,38 @@
     list-style: none;
 }
 
+.cardPoke{
+    width: 200px;
+    height: 200px;
+}
+
+.cardPoke img {
+    width: 100%;
+    height: 100%;
+}
+
+#typeDetails {
+    width: 200px;
+    height: 300px;
+    list-style-type: none;
+}
+
+#weight {
+    width: 50px;
+    height: 50px;
+}
+
+#height {
+    width: 50px;
+    height: 50px;
+}
+
+#abilitiesDetails{
+    width: 200px;
+    height: 100px;
+    list-style-type: none;
+}
+
 .normal {
     background-color: #a6a877;
 }
