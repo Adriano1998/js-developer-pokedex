@@ -6,20 +6,149 @@
     list-style: none;
 }
 
-.cardPoke{
-    width: 200px;
-    height: 200px;
+.pokeDetail {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    padding: 1rem;
+    height: 500px;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    margin-bottom: 32px;
 }
 
-.cardPoke img {
-    width: 100%;
-    height: 100%;
+#nomeAndNumberDetail {
+    display: flex;
+    flex-direction: column;
 }
+
+#nomePokeDetail {
+    padding-top: 2rem;
+    width: 50%;
+}
+
+.texts {
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+
+#numberDetail {
+    width: 100%;
+    height: 30px;
+    font-size: .825rem;
+    text-align: right;
+}
+
+.typess {
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    width: 60px;
+    text-transform: capitalize;
+
+}
+
 
 #typeDetails {
-    width: 200px;
-    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    color: #fff;
     list-style-type: none;
+    padding: .25rem .5rem;
+    width: 100%;
+    height: 25px;
+
+}
+
+#contTypeDetails {
+    display: flex;
+    font-size: .625rem;
+    width: 100%;
+    text-align: center;
+    filter: brightness(1.1);
+
+}
+
+#imgDetailPoke {
+    width: 300px;
+    margin-top: 75px;
+    height: 200px;
+    align-items: center;
+}
+
+.tags {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+#about {
+    text-decoration: underline;
+    text-decoration-color: #000;
+    text-decoration-thickness: 2px;
+}
+
+#baseStats {
+    color: grey;
+}
+
+#evolution {
+    color: grey;
+}
+
+#movies {
+    color: grey;
+}
+
+
+#divHeight {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#divWeight {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#heightText {
+    color: grey;
+    padding-left: 1rem;
+    padding-right: .5rem;
+}
+
+#weightText {
+    color: grey;
+    padding-left: 1rem;
+    padding-right: .5rem;
+}
+
+
+#abilityText {
+    color: grey;
+    padding-right: .5rem;
+}
+
+#heightResponse {
+    font-size: 16px;
+}
+
+#weightResponse {
+    font-size: 16px;
 }
 
 #weight {
@@ -27,15 +156,23 @@
     height: 50px;
 }
 
-#height {
+#heightResponse {
     width: 50px;
     height: 50px;
+    color: black;
 }
 
-#abilitiesDetails{
-    width: 200px;
-    height: 100px;
+#weightResponse {
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+#abilitiesDetails {
+    display: flex;
     list-style-type: none;
+    padding: 0 0 0 1rem;
+    margin: 0;
 }
 
 .normal {
@@ -129,6 +266,7 @@
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+
 }
 
 .pokemon .detail {

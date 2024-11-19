@@ -10,7 +10,7 @@ let offset = 0;
 
 
 function convertPokemonToLi(pokemon) {
-    
+
     return `
         <li onclick="pokemonClick(${pokemon.number})" class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
@@ -26,8 +26,8 @@ function convertPokemonToLi(pokemon) {
 
             </div>
         </li>
-    ` 
-    
+    `
+
 }
 
 
@@ -54,11 +54,11 @@ loadMoreButton.addEventListener('click', () => {
     }
 })
 
-function pokemonClick(number){
-     window.location.href = `indexDetails.html?pokemonId=${number}`
- }
+function pokemonClick(number) {
+    window.location.href = `indexDetails.html?pokemonId=${number}`
+}
 
-  
+
 
 
 
